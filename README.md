@@ -1,3 +1,11 @@
+---
+title: "Bulletproof Django API for a TMS project"
+published: true
+tags: django, python, tutorial, drf
+series: "Django Project Series"
+cover_image: "https://https://www.doprax.com/wp-content/uploads/2021/11/Django-tutorial-for-beginners-1.svg"
+---
+
 # 🛡️ Bulletproof Django API for a TMS project 🎓
 
 ## Introduction
