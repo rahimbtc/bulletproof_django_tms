@@ -136,6 +136,17 @@ Visit http://ip_address:8000 to see the default Django homepage.
 
 5. Create a `LICENSE` file.
 6. Create the `.gitignore` file.
+7. `(.venv) django@ubuntuguest:~/tms$ ls ~/.ssh`
+8. `(.venv) django@ubuntuguest:~/tms$ ssh-keygen -t ed25519 -C "your_email@example.com"`
+9. `(.venv) django@ubuntuguest:~/tms$ cat ~/.ssh/id_ed25519.pub` and Copy the output.
+10. Add the SSH key to GitHub. Go to Settings > SSH and GPG keys > New SSH key. Paste the key and give it a title.
+11. Change Directory: `(.venv) django@ubuntuguest:~/tms$ cd /path/to/your/project`
+12. Initialize Git Repository: `(.venv) django@ubuntuguest:~/tms$ git init`
+13. Add Remote Repository: `(.venv) django@ubuntuguest:~/tms$ git remote add origin git@github.com:username/repository.git`
+14. Stage Files: `(.venv) django@ubuntuguest:~/tms$ git add .`
+15. Create Initial Commit: `(.venv) django@ubuntuguest:~/tms$ git commit -m "Initial commit"`
+16. Push to Remote Repository:`(.venv) django@ubuntuguest:~/tms$ git push -u origin main`
+
 
 ### Snapshot the VM
 
